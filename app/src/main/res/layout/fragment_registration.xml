@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout   xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+          xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="registration"
+            type="marzin.com.thegrouploss.utils.FirebaseAuthMethods"/>
+
+    </data>
+<ScrollView
+
+    android:id="@+id/registration_one"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_registration"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".fragments.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusableInTouchMode="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/userRegistration"
+                style="@android:style/Widget.TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient"
+                android:fontFamily="@font/sura_bold"
+                android:gravity="center"
+                android:contentDescription="@string/registration"
+                android:textStyle="italic"
+                android:textSize="30sp"/>
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/emailTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingTop="45dp"
+                android:textColorHint="@color/black"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/usernameTextBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="@string/username"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingTop="45dp"
+                android:textColorHint="@color/black"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/nameTextbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="@string/Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingTop="45dp"
+                android:textColorHint="@color/black"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/passwordTextbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingTop="45dp"
+                android:textColorHint="@color/black"
+                />
+        </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingTop="35dp"
+                android:text="@string/gender"
+                android:contentDescription="@string/gender"
+                android:textSize="20sp"/>
+
+            <RadioGroup
+                android:id="@+id/gender_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="25dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/female_radio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:contentDescription="@string/female"
+                    android:text="@string/female"/>
+
+
+                <RadioButton
+                    android:id="@+id/male_radio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:contentDescription="@string/male"
+                    android:text="@string/male"/>
+
+
+                <RadioButton
+                    android:id="@+id/other_radio"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/roboto_medium"
+                    android:contentDescription="@string/other"
+                    android:text="@string/other"/>
+            </RadioGroup>
+    <Button
+    android:id="@+id/signUp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/action_sign_up"
+    android:padding="1dp"
+    android:layout_marginTop="25dp"
+    android:background="@color/blueGreen"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/signupTerm"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/privacy"/>
+    </LinearLayout>
+</ScrollView>
+</layout>

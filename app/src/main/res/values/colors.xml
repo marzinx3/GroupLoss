@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="search_recycler_view">#82f7ff</color>
+    <color name="ivory">#FFFFF0</color>
+    <color name="online">#4caf50</color>
+    <color name="offline">#f44336</color>
+    <color name="Red">#f44336</color>
+    <color name="black">#FF000000</color>
+    <color name="creamSicle">#ffc107</color>
+    <color name="blueGreen">#097054</color>
+
+    <!--- new colors-->
+
+    <color name="primaryColor">#ff6d00</color>
+    <color name="primaryLightColor">#ff9e40</color>
+    <color name="primaryDarkColor">#c43c00</color>
+    <color name="secondaryColor">#ff2f00</color>
+    <color name="secondaryLightColor">#ff6b38</color>
+    <color name="secondaryDarkColor">#c30000</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+
+
+    <!-- Bottom Nav Bar-->
+    <color name="profile">#18FFFF</color>
+    <color name="messages">#ffab40</color>
+    <color name="search">#40C4FF</color>
+    <color name="home">#69F0AE</color>
+    <color name="partners">#FFFF00</color>
+
+    <!-- OnBoarding-->
+    <color name="selected_dot">#2D9CDB</color>
+    <color name="idle_dot">#662D9CDB</color>
+</resources>

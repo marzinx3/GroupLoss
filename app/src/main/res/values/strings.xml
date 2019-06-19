@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">GroupLoss</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--Bottom Navigation Bar-->
+    <string name="home">Home Screen</string>
+    <string name="messages">Messages Screen</string>
+    <string name="profile">Profile Screen</string>
+    <string name="friends">Friends Screen</string>
+    <string name="search">Search Screen</string>
+
+    <string name="home_icon">Home</string>
+    <string name="message_icon">Messages</string>
+    <string name="profile_icon">Profile</string>
+    <string name="friend_icon">Friends</string>
+    <string name="search_icon">Search</string>
+
+    <!--Search Fragment Screen-->
+    <string name="zipcode">Enter Zipcode</string>
+    <string name="search_button">Search Button</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string-array name="search_criteria">
+        <item>Goal</item>
+        <item>Availability Time</item>
+        <item>Online Status</item>
+    </string-array>
+    <string name="filter">Filter</string>
+    <string name="location">Location</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_forgot_password">Forgot Password</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_sign_up_account">No account yet?</string>
+    <string name="action_sign_in_google">Sign in with Google</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required:</string>
+
+    <!-- Onboarding Screen-->
+    <string name="ob_header1">Push Each Other</string>
+    <string name="ob_header2">Train For your Best Time</string>
+    <string name="ob_header3">Power Through that Last Rep</string>
+    <string name="ob_desc1">Find a partner who will stick with you on your journey</string>
+    <string name="ob_desc2">Meet someone who is training for the same goals as you</string>
+    <string name="ob_desc3">Lift with someone who will make sure you dont cheat yourself</string>
+    <string name="get_started">Lets Get Started!</string>
+    <string name="picture">Picture</string>
+    <!-- Strings related to Registration-->
+    <!-- First Page-->
+    <string name="registration"><u>User Registration</u></string>
+    <string name="signupTerm">By signing up you agree to our </string>
+    <string name="privacy"><u>Terms &amp; Privacy Policy.</u></string>
+    <string name="next">Next</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Prefer Not Say</string>
+    <string name="dob">Date of Birth</string>
+    <string name="dob_warning">Birthday is only used for special birthday gifts/specials </string>
+
+    <!-- Second Page -->
+    <string name="fitness_bio">Fitness Bio</string>
+    <string name="fitness_bio_placer">Tell us a little about what you like to do such as avid runner or
+    just dusting off the dust from the high school years!</string>
+    <string name="goal">Goal</string>
+    <string-array name="goals">
+        <item>Weight Loss</item>
+        <item>BodyBuilding</item>
+        <item>Strength Training</item>
+        <item>Endurance/conditioning</item>
+        <item>5k</item>
+        <item>10k</item>
+        <item>Half-Marathon</item>
+        <item>Marathon</item>
+        <item>Flexibility</item>
+    </string-array>
+    <string name="time">Availability Time</string>
+    <string name="days">Workout Days</string>
+    <string-array name="week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <!-- Third Page -->
+    <string name="accomplish">What do you want to accomplish?</string>
+    <string name="accomplish_placer">Example: I would like to be able to run a 5k under 45 minutes!</string>
+    <string name="ideal_partner">Ideal Workout Partner</string>
+    <string name="ideal_partner_placer">Example: Looking for someone to push me when i am almost out of energy and i will do the same for them.</string>
+
+
+    <!-- Other  -->
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="failedLogin">Failed Login Attempt!</string>
+    <string name="auth">"705507718175-c0pjemgd38i6ev65lk2ev8u49cqsq3gd.apps.googleusercontent.com"</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

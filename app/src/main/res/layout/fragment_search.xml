@@ -1,0 +1,62 @@
+<layout>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="marzin.com.thegrouploss.fragments.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/search_recycler_view"
+      >
+
+
+        <ImageView
+            android:id="@+id/status"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/online"
+            android:src="@drawable/ic_online_status"
+            android:adjustViewBounds="true"/>
+
+
+        <Spinner
+            android:id="@+id/search_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:entries="@array/search_criteria"
+            android:focusable="true"
+            android:gravity="center"
+            android:prompt="@string/filter"
+            />
+
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:adjustViewBounds="true"
+            android:background="@color/search_recycler_view"
+            android:contentDescription="@string/location"
+            android:src="@drawable/ic_location_status"
+            android:clickable="true"/>
+
+    </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+        </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+</FrameLayout>
+</layout>

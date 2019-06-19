@@ -1,0 +1,27 @@
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home"
+        title="@string/home_icon"
+        barColorWhenSelected="#69F0AE"/>
+    <tab
+        id="@+id/tab_messages"
+        icon="@drawable/ic_message"
+        title="@string/message_icon"
+        barColorWhenSelected="#FFAB40"/>
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_group"
+        title="@string/friend_icon"
+        barColorWhenSelected="#FFFF00"/>
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/ic_search"
+        title="@string/search_icon"
+        barColorWhenSelected="#40C4FF" />
+    <tab
+        id="@+id/tab_account"
+        icon="@drawable/ic_account_box"
+        title="@string/profile_icon"
+        barColorWhenSelected="#18FFFF"/>
+</tabs>
